@@ -1,0 +1,16 @@
+{
+  "name": "postman-tester",
+  "version": "1.0.0",
+  "main": "app/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app/index.js",
+    "watch": "nodemon yarn start"
+  },
+  "dependencies": {
+    "json-server": "^0.15.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
