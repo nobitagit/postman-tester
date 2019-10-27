@@ -10,7 +10,7 @@ const middlewares = jsonServer.defaults();
 const routeRequiresAuth = url => {
   const parts = url.split("/");
   const { [parts.length - 1]: endpoint } = parts;
-  // only /auth can be accessed without token
+  // only "*/auth" can be accessed without token
   return endpoint !== "auth";
 };
 
